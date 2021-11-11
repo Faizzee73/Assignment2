@@ -22,9 +22,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="408dp"
+        android:layout_width="match_parent"
         android:layout_height="128dp"
         android:text="TextView"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
@@ -47,25 +48,33 @@
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:onClick="onRadioButton"
+            android:text="RadioButton"
+            android:textSize="26sp" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:onClick="onRadioButton"
+            android:text="RadioButton"
+            android:textSize="26sp" />
 
         <RadioButton
             android:id="@+id/radioButton7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:onClick="onRadioButton"
+            android:text="RadioButton"
+            android:textSize="26sp" />
 
         <RadioButton
             android:id="@+id/radioButton8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:onClick="onRadioButton"
+            android:text="RadioButton"
+            android:textSize="26sp" />
     </RadioGroup>
 
     <Button

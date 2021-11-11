@@ -89,6 +89,6 @@ public class MainActivity3 extends AppCompatActivity {
         RadioGroup R1=findViewById(R.id.radiogroup1);
         int selectedId = R1.getCheckedRadioButtonId();
         RadioButton rb = findViewById(selectedId);
-        Input.add(index, rb.getText().toString());
+        Input.set(index, rb.getText().toString());
     }
 }
