@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void exam(View view) {
-
+        Intent intent=new Intent(this,MainActivity3.class);
+        startActivity(intent);
     }
 }
